@@ -33,5 +33,6 @@ jobs:
           ARM_CLIENT_SECRET: $ {{ secrets.ARM_CLIENT_SECRET }}
         working-directory: ${{ env.WORKING_DIRECTORY }}
         run: |
-          terraform init \
+          terraform init
+
           terraform plan
