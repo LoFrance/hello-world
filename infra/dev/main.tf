@@ -9,7 +9,7 @@ terraform {
     resource_group_name  = "dev-lorenzo"
     storage_account_name = "devlorenzosa"
     container_name       = "azurermstatelorenzo"
-    key                  = "lorenzo-infra.identity.dev.westeurope.tfstate"
+    key                  = "lorenzo-func.tfstate"
   }
 }
 provider "azurerm" {
