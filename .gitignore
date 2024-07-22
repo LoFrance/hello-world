@@ -2,8 +2,8 @@
 .idea
 .DS_Store
 staticfiles/
-.env/*
-!.env/.env.example
+!.env.example
+.env
 
 # Logs
 logs
